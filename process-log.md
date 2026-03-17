@@ -35,3 +35,18 @@ Result:
 Notes:
 - Restarted progress after pause since Jan 28
 
+🚀 Next Step — Day 7 (Make it “real backend”)  Mar 17 2026
+
+Right now your code still has one weakness:
+
+👉 Business logic is inside the router
+
+That’s fine for small demos — but not for production.
+
+🎯 Goal Today
+
+Move logic into a service layer:
+
+router → service → database
+
+This is a big signal to interviewers that you know backend architecture.

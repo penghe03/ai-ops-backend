@@ -1,6 +1,7 @@
 # AI Ops Backend (FastAPI)
 
 An AI-assisted incident management backend built with FastAPI and SQLAlchemy.
+🚀 Built by a Software Engineer II focusing on backend systems and AI integration
 
 ## 🚀 Features
 

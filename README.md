@@ -57,6 +57,13 @@ uvicorn app.main:app --reload
 http://127.0.0.1:8000/docs
 ```
 
+## 🐳 Run with Docker
+
+```bash
+docker build -t ai-ops-backend .
+docker run -p 8000:8000 ai-ops-backend
+
+
 ## 📌 Example API Usage
 
 ### Create an Issue

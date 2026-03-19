@@ -99,3 +99,8 @@ app.include_router(issues.router)
 #         "severity": issue.severity,
 #         "status": issue.status
 #     }
+
+
+@app.get("/")
+def root():
+    return {"message": "AI Ops Backend is running"}

@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from fastapi.responses import PlainTextResponse
 from app.routers import issues
 
 # from app.schemas.issue import Issue
@@ -101,6 +102,10 @@ app.include_router(issues.router)
 #     }
 
 
-@app.get("/")
+# @app.get("/")
+# def root():
+#     return {"message": "AI Ops Backend is running"}
+
+@app.get("/", response_class=PlainTextResponse)
 def root():
-    return {"message": "AI Ops Backend is running"}
+    return "AI Ops Backend is running"
